@@ -21,11 +21,6 @@ form{
 }
 
 
-#newTasksBar{
-    height: 2rem;
-    width: 70%;
-}
-
 button{
     background-color: white;
     color: rgb(30, 144, 255);
