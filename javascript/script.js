@@ -20,7 +20,6 @@ com a função de quando clicado, removerá o que foi criado acima*/
 	    removeTask.setAttribute("value", "X");
 	    removeTask.setAttribute("id", "removeButton");
 	    removeTask.addEventListener("click", function(e) {
-	        text.parentNode.removeChild(text)
 	        newItem.parentNode.removeChild(newItem);
 	    });
 	    newItem.appendChild(removeTask);
